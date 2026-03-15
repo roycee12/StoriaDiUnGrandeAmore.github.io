@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+  <title>Storia Di Un Grande Amore</title>
+  <meta charset="UTF-8">
+  <meta name="author" content="Royce">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <link href="tyyli.css" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+<div class="brandline">
+  <img src="kuvat/kotisivu/juve_logo_white.jpg" alt="Juventus-logo" class="brand-icon">
+  <div class="stars">★ ★ ★</div>
+  <img src="kuvat/kotisivu/38_scudetti.jpg" alt="38 Scudetti -merkki" class="brand-icon">
+</div>
+  <h1>Storia Di Un Grande Amore</h1>
+
+  <nav id="topnav">
+    <ul>
+      <li><a href="index.html">Kotisivu</a></li>
+      <li><a href="saavutukset.html">Saavutukset</a></li>
+      <li><a href="legendat.html">Legendat</a></li>
+      <li><a href="kulttuuri.html">Kulttuuri</a></li>
+      <li><a href="calciopoli.html">Calciopoli</a></li>
+    </ul>
+  </nav>
+<div class="hamburger" id="hamburger">☰</div>
+</header>
+
+<main>
+<h2>Juventus - Enemmän kuin jalkapalloseura</h2>
+<p>Juventus perustettiin vuonna 1897, ja se on yksi maailman vanhimmista ja arvostetuimmista yhä toimivista jalkapalloseuroista. Seuralla on valtava kannattajakunta ympäri maailmaa, ja heitä yhdistää vahva rakkaus bianconereita kohtaan.
+Juventuksessa pelaajille opetetaan seuran oma ajattelutapa, tapa nähdä jalkapallo sekä ennen kaikkea ne inhimilliset arvot, joista seura tunnetaan. Entinen kapteeni Alessandro Del Piero sanoi aikoinaan: “Vincere non è importante, è l’unica cosa che conta” – “Voittaminen ei ole tärkeää, se on ainoa asia joka merkitsee.” Lause kuvastaa hyvin sitä voittamisen halua ja vaatimustasoa, joka Juventuksessa on aina ollut.
+<img src="kuvat/kulttuuri/juve_logo_history.jpg" alt="Juventus-logo" class="juve-logo">
+</p>
+<h2>Kannattajat</h2>
+<p>Iso osa Juventuksen identiteettiä on sen intohimoinen kannattajakunta. Fanit matkustavat tukemaan joukkuetta myös vierasotteluihin ja pysyvät joukkueen takana vaikeinakin hetkinä.
+Drughi on yksi tunnetuimmista Juventuksen kannattajaryhmistä, ja heidät tunnetaan kovista kannustushuudoistaan ja vahvasta läsnäolostaan stadionilla. Viime vuosina osa ultrista ei ole tukenut joukkuetta entiseen tapaan erilaisten ristiriitojen vuoksi, mutta kotiotteluissa tunnelma on silti yleensä hieno ja antaa joukkueelle lisää voimaa taistella voitosta.</p>
+<div class="photo-row">
+  <img src="kuvat/kulttuuri/curva_sud.jpg" alt="curva_sud" class="curva-sud">
+  <img src="kuvat/kulttuuri/juve_tifo.jpg" alt="juve_tifo" class="juve-tifo">
+</div>
+<h2>Stile Juve</h2>
+<p>Juventuksen filosofia perustuu kurinalaisuuteen, kunnioitukseen ja kovaan tekemiseen. Tätä kuvaa hyvin termi “Stile Juve”. Seurassa uskotaan siihen, että menestys syntyy arjen työn kautta eikä sattumalta. Joukkueen vahvuus löytyy ryhmästä, ja kaikkien odotetaan sitoutuvan samaan tasoon.
+Voittamisen mentaliteetti näkyy vahvasti seuran tavassa toimia. Juventuksessa ei tyydytä siihen, että pelataan vain “riittävän hyvin”, vaan aina pyritään parempaan. Perinteet ja uskollisuus ovat tärkeitä, ja pelaajia rohkaistaan arvostamaan mustavalkoista paitaa ja sen pitkää historiaa. Ennen kaikkea seura korostaa yhtenäisyyttä ja nöyryyttä: joukkue tulee aina yksilön edelle.
+</p>
+</main>
+
+<footer class="site-footer">
+  <p>
+    Storia Di Un Grande Amore<br>
+    Fino Alla Fine
+  </p>
+</footer>
+<script>
+const hamburger = document.getElementById('hamburger');
+const menu = document.querySelector('#topnav ul');
+
+hamburger.addEventListener('click', () => {
+    menu.classList.toggle('show-menu');
+});
+</script>
+</body>
+</html>

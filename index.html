@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+  <title>Storia Di Un Grande Amore</title>
+  <meta charset="UTF-8">
+  <meta name="author" content="Royce">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <link href="tyyli.css" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+<div class="brandline">
+  <img src="kuvat/kotisivu/juve_logo_white.jpg" alt="Juventus-logo" class="brand-icon">
+  <div class="stars">★ ★ ★</div>
+  <img src="kuvat/kotisivu/38_scudetti.jpg" alt="38 Scudetti -merkki" class="brand-icon">
+</div>
+  <h1>Storia Di Un Grande Amore</h1>
+
+  <nav id="topnav">
+    <ul>
+      <li><a href="index.html">Kotisivu</a></li>
+      <li><a href="saavutukset.html">Saavutukset</a></li>
+      <li><a href="legendat.html">Legendat</a></li>
+      <li><a href="kulttuuri.html">Kulttuuri</a></li>
+      <li><a href="calciopoli.html">Calciopoli</a></li>
+    </ul>
+  </nav>
+<div class="hamburger" id="hamburger">☰</div>
+</header>
+
+<main>
+  <h2>Mustavalkoinen perhe</h2>
+  <div class="ucl-layout">
+    <img src="kuvat/kotisivu/juve_ucl.jpg" alt="juve-ucl"  class="juve-ucl">
+<div class="ucl-text">
+<p>
+Juventus Football Club, yksi maailman tunnetuimmista ja menestyneimmistä jalkapalloseuroista, tunnetaan mustavalkoisista väreistään, pitkästä historiastaan ja intohimoisista faneistaan. Juventus on Italian menestynein ja arvostetuin jalkapalloyhdistys, joka on voittanut 38 Scudettoa yli kaksinkertaisesti enemmän kuin seuraavana tuleva kilpailija. Juve ei kuitenkaan ole pelkkä logo tai pelipaita. Se on kokonainen identiteetti, joka koostuu pelaajista, DNA:sta, aurasta ja rikkaasta historiasta, johon liittyy ikuisen rakkauden teema, Storia Di Un Grande Amore.
+</p>
+
+<p>
+Tämä sivusto esittelee Juventuksen historian, kulttuurin ja suurimmat hetket. Se sisältää katsauksen seuran saavutuksiin, legendoihin, juvelaisuuden kulttuuriin sekä unohtumattomaan ja kiistatta seurahistoriaan syvästi vaikuttaneeseen Calciopoli tapaukseen.
+</p>
+    </div>
+</div>
+<img src="kuvat/kotisivu/quote.jpg" alt="quote" class="quote">
+</main>
+
+<footer class="site-footer">
+  <p>
+    Storia Di Un Grande Amore<br>
+    Fino Alla Fine
+  </p>
+</footer>
+<script>
+const hamburger = document.getElementById('hamburger');
+const menu = document.querySelector('#topnav ul');
+
+hamburger.addEventListener('click', () => {
+    menu.classList.toggle('show-menu');
+});
+</script>
+</body>
+</html>

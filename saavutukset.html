@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+  <title>Storia Di Un Grande Amore</title>
+  <meta charset="UTF-8">
+  <meta name="author" content="Royce">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <link href="tyyli.css" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+<div class="brandline">
+  <img src="kuvat/kotisivu/juve_logo_white.jpg" alt="Juventus-logo" class="brand-icon">
+  <div class="stars">★ ★ ★</div>
+  <img src="kuvat/kotisivu/38_scudetti.jpg" alt="38 Scudetti -merkki" class="brand-icon">
+</div>
+  <h1>Storia Di Un Grande Amore</h1>
+
+  <nav id="topnav">
+    <ul>
+      <li><a href="index.html">Kotisivu</a></li>
+      <li><a href="saavutukset.html">Saavutukset</a></li>
+      <li><a href="legendat.html">Legendat</a></li>
+      <li><a href="kulttuuri.html">Kulttuuri</a></li>
+      <li><a href="calciopoli.html">Calciopoli</a></li>
+    </ul>
+  </nav>
+<div class="hamburger" id="hamburger">☰</div>
+</header>
+
+<main>
+<h2>Serie A - 38 Mestaruutta</h2>
+<img src="kuvat/saavutukset/juve_scudetto.jpg" alt="scudetto" class="scudetto">
+<p>Juventus on Italian menestynein seura, ja se on voittanut Serie A:n mestaruuden 38 kertaa. Kyllä, 38 koska kaikki ne mestaruudet voitettiin kentällä, ja fanien silmissä ne kuuluvat Juventukselle. Jokainen mestaruus kertoo seurasta, joka ei tyydy vähempään kuin parhaaseen ja joka taistelee aina loppuun asti. Juventuksen voittokulttuuri näkyy jokaisessa kaudessa ja jokaisessa joukkueessa, joka on pukenut päälleen mustavalkoisen paidan.
+</p>
+<h2>9 Scudettoa putkeen</h2>
+<img src="kuvat/saavutukset/juve_museum.jpg" alt="juve-museum" class="juve_museum">
+<p>Juventuksen historiallinen saavutus vuosina 2012–2020 on jotain, mitä ei tulla näkemään uudestaan missään Euroopan top 5 -liigassa. Yhdeksän mestaruutta peräkkäin on osoitus siitä, kuinka ylivoimainen ja tasainen seura oli tuona ajanjaksona. Joukkue muuttui, valmentajat vaihtuivat, mutta mentaliteetti pysyi samana. Tämä aikakausi on yksi seurahistorian suurimmista ylpeydenaiheista.</p>
+<h2>Ballon d'Or voittajat</h2>
+<p>Juventus on ollut koti useille pelaajille, jotka ovat voittaneet Ballon d’Orin mustavalkoisen paidan aikana. Michel Platini teki historiaa voittamalla palkinnon kolme kertaa peräkkäin vuosina 1983, 1984 ja 1985. Roberto Baggio palkittiin vuonna 1993, ja muutamaa vuotta myöhemmin Zinedine Zidane voitti Ballon d’Orin vuonna 1998 loistavan kautensa jälkeen. Vuonna 2003 Pavel Nedvěd nousi maailman parhaaksi pelaajaksi ja toi Juventukselle jälleen yhden arvostetun palkinnon. Nämä neljä nimeä ovat esimerkkejä siitä, miten suuri vaikutus Juventuksella on ollut maailman jalkapalloon. Seura on aina pystynyt houkuttelemaan ja nostamaan esiin maailmanluokan pelaajia.</p>
+</main>
+<footer class="site-footer">
+  <p>
+    Storia Di Un Grande Amore<br>
+    Fino Alla Fine
+  </p>
+</footer>
+<script>
+const hamburger = document.getElementById('hamburger');
+const menu = document.querySelector('#topnav ul');
+
+hamburger.addEventListener('click', () => {
+    menu.classList.toggle('show-menu');
+});
+</script>
+</body>
+</html>

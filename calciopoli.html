@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+  <title>Storia Di Un Grande Amore</title>
+  <meta charset="UTF-8">
+  <meta name="author" content="Royce">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <link href="tyyli.css" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+<div class="brandline">
+  <img src="kuvat/kotisivu/juve_logo_white.jpg" alt="Juventus-logo" class="brand-icon">
+  <div class="stars">★ ★ ★</div>
+  <img src="kuvat/kotisivu/38_scudetti.jpg" alt="38 Scudetti -merkki" class="brand-icon">
+</div>
+  <h1>Storia Di Un Grande Amore</h1>
+
+  <nav id="topnav">
+    <ul>
+      <li><a href="index.html">Kotisivu</a></li>
+      <li><a href="saavutukset.html">Saavutukset</a></li>
+      <li><a href="legendat.html">Legendat</a></li>
+      <li><a href="kulttuuri.html">Kulttuuri</a></li>
+      <li><a href="calciopoli.html">Calciopoli</a></li>
+    </ul>
+  </nav>
+<div class="hamburger" id="hamburger">☰</div>
+</header>
+
+<main>
+<h2>Mistä Calciopolissa oli kyse</h2>
+<img src="kuvat/calciopoli/moggi.jpg" alt="moggi" class="moggi">
+<p>Calciopoli oli vuonna 2006 esiin noussut tapaus, joka ravisteli koko Italian jalkapalloa. Käytännössä kyse oli tuomarivalinnoista ja siitä, miten seurat ja eri toimijat puhuivat niistä keskenään. Asia paisui nopeasti valtaviin mittasuhteisiin, ja vaikka useampi seura oli tavalla tai toisella mukana sotkussa, huomio kohdistui lähes kokonaan Juventukseen. Mediassa juttu paisui entisestään, ja tuntui vähän siltä, että pienistäkin asioista tehtiin isoja otsikoita ja Juve vedettiin joka suuntaan mukaan.</p>
+<h2>Mitä Juventus joutui kokemaan</h2>
+<p>Vaikka tutkinnassa nousi esiin myös muiden seurojen ja henkilöiden toimia, Juventus sai selvästi kovimmat rangaistukset. Seuralta vietiin kaksi Serie A -mestaruutta ja joukkue pudotettiin suoraan Serie B:hen. Monien mielestä rangaistukset olivat kohtuuttoman ankaria verrattuna muihin tapaukseen liitettyihin seuroihin, joiden tuomiot olivat huomattavasti lievempiä tai peruttiin myöhemmin kokonaan.
+Tilanne johti siihen, että osa tähtipelaajista päätti lähteä. Muun muassa:
+<ul>
+    <li>Zlatan Ibrahimović</li>
+    <li>Patrick Vieira</li>
+    <li>Fabio Cannavaro</li>
+    <li>Lilian Thuram</li>
+    <li>Gianluca Zambrotta</li>
+</ul>
+<p>Moni heistä siirtyi muualle, koska tulevaisuus oli epävarma ja Juventus joutui aloittamaan kaiken Serie B:stä. Samalla se nosti arvoon ne pelaajat, jotka jäivät he näyttivät, mitä uskollisuus ja kiintymys seuraan oikeasti tarkoittavat.</p>
+<h2>Mitä Calciopoli teki Juventuksen maineelle</h2>
+<img src="kuvat/calciopoli/scudetti_counter.jpg" alt="scudetti_counter" class="scudetti_counter">
+<p>Calciopoli jätti Juventukseen ison jäljen. Se vaikutti seuran talouteen, joukkueeseen ja ennen kaikkea maineeseen. Monille neutraaleille faneille Juve nähtiin pitkään negatiivisessa valossa, ja kansainvälisesti seura joutui rakentamaan uskottavuuttaan uudelleen.
+Silti tämä tapahtuma myös vahvisti Juventuksen identiteettiä. Ne ihmiset, jotka pysyivät seuran takana, olivat tärkeässä roolissa uudessa nousussa. Ja vaikka tilanne oli synkkä, Juventus nousi takaisin nopeasti ja aloitti yhden kaikkien aikojen menestyneimmistä jaksoistaan yhdeksän peräkkäisen mestaruuden aikakauden.</p>
+
+</main>
+
+<footer class="site-footer">
+  <p>
+    Storia Di Un Grande Amore<br>
+    Fino Alla Fine
+  </p>
+</footer>
+<script>
+const hamburger = document.getElementById('hamburger');
+const menu = document.querySelector('#topnav ul');
+
+hamburger.addEventListener('click', () => {
+    menu.classList.toggle('show-menu');
+});
+</script>
+</body>
+</html>
